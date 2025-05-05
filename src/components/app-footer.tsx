@@ -1,3 +1,7 @@
 export default function AppFooter() {
-  return <div>AppFooter</div>;
+  return (
+    <footer className=" mt-auto border-t border-black/5 py-5">
+      <small className="opacity-50">&copy; All rights reserved.</small>
+    </footer>
+  );
 }
