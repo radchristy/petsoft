@@ -10,8 +10,12 @@ export default function Page() {
       </div>
       <div>
         <SearchForm />
-        <PetList />
-        <PetDetails />
+        <ContentBlock>
+          <PetList />
+        </ContentBlock>
+        <ContentBlock>
+          <PetDetails />
+        </ContentBlock>
       </div>
     </main>
   );
