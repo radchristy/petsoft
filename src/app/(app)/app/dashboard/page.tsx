@@ -1,5 +1,7 @@
 import Branding from "@/components/branding";
 import Stats from "@/components/stats";
+import SearchForm from "@/components/search-form";
+import PetList from "@/components/pet-list";
 
 export default function Page() {
   return (
