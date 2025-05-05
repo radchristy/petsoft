@@ -3,6 +3,7 @@ import Stats from "@/components/stats";
 import SearchForm from "@/components/search-form";
 import PetList from "@/components/pet-list";
 import PetDetails from "@/components/pet-details";
+import ContentBlock from "@/components/content-block";
 
 export default function Page() {
   return (
