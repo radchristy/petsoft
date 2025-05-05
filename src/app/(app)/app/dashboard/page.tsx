@@ -12,8 +12,11 @@ export default function Page() {
         <Branding />
         <Stats />
       </div>
-      <div>
-        <SearchForm />
+      <div className="grid grid-cols-3 grid-rows-[45px_1fr]">
+        <div>
+          <SearchForm />
+        </div>
+
         <ContentBlock>
           <PetList />
         </ContentBlock>
