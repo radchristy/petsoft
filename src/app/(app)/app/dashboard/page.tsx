@@ -8,6 +8,11 @@ export default function Page() {
         <Branding />
         <Stats />
       </div>
+      <div>
+        <SearchForm />
+        <PetList />
+        <PetDetails />
+      </div>
     </main>
   );
 }
