@@ -13,13 +13,15 @@ export default function Page() {
         <Stats />
       </div>
       <div className="grid grid-cols-3 grid-rows-[45px_1fr]">
-        <div>
+        <div className="row-start-1 row-span-1 col-start-1 col-span-1">
           <SearchForm />
         </div>
+        <div>
+          <ContentBlock>
+            <PetList />
+          </ContentBlock>
+        </div>
 
-        <ContentBlock>
-          <PetList />
-        </ContentBlock>
         <ContentBlock>
           <PetDetails />
         </ContentBlock>
